@@ -19,8 +19,8 @@ Run the application with: mvn spring-boot:run
 ## APIs
 All APIs are POST requests and accept a CSV file as input using a multipart/form-data request.
 
-curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/echo
-curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/invert
-curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/flatten
-curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/sum
-curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/multiply
+1. curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/echo
+2. curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/invert
+3. curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/flatten
+4. curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/sum
+5. curl -F "file=@matrix.csv" http://localhost:7451/v1/matrix-app/multiply
